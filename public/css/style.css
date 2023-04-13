@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+body, form, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center align the form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/* Style the form container */
+div {
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  margin: 0 300px 0 300px
+}
+
+/* Style the form elements */
+p {
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style the result page */
+h1, h3 {
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+a {
+  color: #007bff;
+}
